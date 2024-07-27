@@ -1,0 +1,12 @@
+[package]
+name = "news_notifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+scraper = "0.19.0"
+fantoccini = "0.21.0"
+notify-rust = "4.11.0"
+url = "2.5.2"
